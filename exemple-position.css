@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(100, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    color: white;
+    margin: 0;
+    font-size: 3rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .example-box {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.75);
+  }
+  
+  .example-box h2 {
+    color: white;
+    margin-top: 0;
+  }
+  
+  .example-box hr {
+    border-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .retour {
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+  }
+  
+  .img-retour {
+    width: 40px;
+    margin-left: 10px;
+  }
+  
+  .text-retour {
+    font-size: 40px;
+    text-decoration-style: none;
+    text-decoration: #fff;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
